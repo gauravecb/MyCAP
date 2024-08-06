@@ -51,22 +51,22 @@ annotate service.Books with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'ID',
+            Label : '{i18n>Id}',
             Value : ID,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'title',
+            Label : '{i18n>Title}',
             Value : title,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'descr',
+            Label : '{i18n>Descr}',
             Value : descr,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'stock',
+            Label : '{i18n>Stock}',
             Value : stock,
         },
         {
