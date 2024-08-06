@@ -95,3 +95,15 @@ annotate service.Books with {
     }
 };
 
+annotate service.Books with @(
+    UI.SelectionFields : [
+        authors.name,
+        title,
+    ]
+);
+annotate service.Authors with {
+    name @Common.Label : '{i18n>Authorsname}'
+};
+annotate service.Books with {
+    title @Common.Label : '{i18n>Title}'
+};
